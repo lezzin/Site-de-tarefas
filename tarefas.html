@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body id="body">
+
+    <div class="container">
+
+        <!-- botão para visualização da lista toda -->
+        <section class="visualizar">
+            <i class="fa fa-eye" id="view" style="cursor: pointer;"></i>
+        </section>
+
+        <div class="box">
+
+            <h1>Lista de Tarefas</h1>
+
+            <!-- aqui é onde você insere a tarefa -->
+            <main>
+                <input name="tarefa" type="text" placeholder="Insira uma nova tarefa">
+                <button disabled>Adicionar</button>
+            </main>
+
+        </div>
+
+        <!-- aqui ficarão as tarefas -->
+        <ol></ol>
+
+        <div class="box-botao">
+            <button class="botao-deletar">Excluir tudo</button>
+        </div>
+    </div>
+</body>
+<!-- javascript -->
+<script src="./script.js"></script>
+
+</html>
