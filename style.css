@@ -59,6 +59,7 @@ h1 {
 
 @media (max-width:991.98px) {
     .visualizar {
+        margin: 1.6rem;
         margin-right: 1.5rem;
     }
 
